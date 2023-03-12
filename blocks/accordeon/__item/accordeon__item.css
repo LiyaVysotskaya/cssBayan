@@ -21,3 +21,18 @@
     transition: rotate 1s ease-in-out;
   }
 }
+
+@media screen and (max-width: 821px) {
+  .accordeon__item {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .accordeon__item {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}
+

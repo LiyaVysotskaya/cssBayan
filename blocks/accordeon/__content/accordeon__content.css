@@ -10,3 +10,9 @@
   border-top: 0.1rem solid #ef9d10;
   cursor: pointer;
 }
+
+@media (hover: hover) {
+  .accordeon__content {
+    cursor: pointer;
+  }
+}

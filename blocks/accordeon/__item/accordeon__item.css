@@ -1,3 +1,22 @@
 .accordeon__item {
-  display: none;
+  appearance: none;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  background-image: url(../../../images/add-btn.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+}
+  .accordeon__item:checked {
+    rotate: 45deg;
+  }
+
+@media (hover: hover) {
+  .accordeon__content:hover > .accordeon__item {
+    rotate: 45deg;
+    transition: rotate 1s ease-in-out;
+  }
 }

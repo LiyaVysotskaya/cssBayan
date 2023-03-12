@@ -1,17 +1,17 @@
 .accordeon__image {
   max-width: 600px;
-  display: none;
+  max-height: 0;
+  display: block;
   margin: 0 auto;
   object-fit: contain;
 }
   .accordeon__item:checked~.accordeon__image {
-    display: block;
-    transition: .4s ease-in-out;
+    max-height: 1000px;
   }
 
 @media (hover: hover) {
   .accordeon__content:hover > .accordeon__image {
-    display: block;
-    transition: .4s ease-in-out;
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
   }
 }

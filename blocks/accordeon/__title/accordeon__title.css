@@ -1,5 +1,5 @@
 .accordeon__title {
-  width: 100%;
+  width: fit-content;
   padding: 0;
   margin: 2rem 0;
   display: block;
@@ -7,8 +7,7 @@
   line-height: 1.20;
   font-weight: 500;
   font-style: normal;
-  color: white;
-  transition: opacity .4s;
+  color: #6b7b8c;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -16,7 +15,7 @@
 
 @media (hover: hover) {
   .accordeon__content:hover > .accordeon__title {
-    color: #7d7d7d;
-    transition: color .4s;
+    margin-left: 5em;
+    transition: margin-left 1s;
   }
 }

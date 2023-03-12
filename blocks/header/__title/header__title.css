@@ -8,3 +8,16 @@
   font-style: normal;
   color: #6b7b8c;
 }
+
+
+@media screen and (max-width: 821px) {
+  .header__title {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .header__title {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,23 @@
+.accordeon__image {
+  max-width: 70%;
+  max-height: 0;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain;
+}
+  .accordeon__item:checked~.accordeon__image {
+    max-height: 100vh;
+  }
+
+@media (hover: hover) {
+  .accordeon__content:hover > .accordeon__image {
+    max-height: 100vh;
+    transition: max-height 2s cubic-bezier(0, 1, 0, 1);
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .accordeon__image {
+    max-width: 90%;
+  }
+}

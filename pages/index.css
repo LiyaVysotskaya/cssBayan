@@ -1,0 +1,20 @@
+@import url(../vendor/normalize.css);
+
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/centered/centered.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/accordeon/accordeon.css);
+@import url(../blocks/accordeon/__content/accordeon__content.css);
+@import url(../blocks/accordeon/__image/accordeon__image.css);
+@import url(../blocks/accordeon/__item/accordeon__item.css);
+@import url(../blocks/accordeon/__title/accordeon__title.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Не баян, а аккордеон</title>
+</head>
+<body class="page">
+  <div class="page__container">
+    <header class="header centered">
+      <h1 class="header__title">CSS Bayan</h1>
+    </header>
+    <main>
+      <section class="accordeon centered" aria-label="Секция с мемасиками">
+        <label for="first-accordeon" class="accordeon__content">
+          <h2 class="accordeon__title">First meme</h2>
+          <input class="accordeon__item" type="radio" name="accordeon" id="first-accordeon" checked>
+          <img class="accordeon__image" src="./images/frst-meme.jpg" alt="Мем про здоровый сон">
+        </label>
+
+        <label for="second-accordeon" class="accordeon__content">
+          <h2 class="accordeon__title">Second meme</h2>
+          <input class="accordeon__item" type="radio" name="accordeon" id="second-accordeon">
+          <img class="accordeon__image" src="./images/scnd-meme.jpg" alt="Мем про пользовательское соглашение">
+        </label>
+
+        <label for="trird-accordeon" class="accordeon__content">
+          <h2 class="accordeon__title">Third meme</h2>
+          <input class="accordeon__item" type="radio" name="accordeon" id="trird-accordeon">
+          <img class="accordeon__image" src="./images/thrd-meme.jpg" alt="Мем про тебя">
+        </label>
+
+        <label for="fourth-accordeon" class="accordeon__content">
+          <h2 class="accordeon__title">Fourth meme</h2>
+          <input class="accordeon__item" type="radio" name="accordeon" id="fourth-accordeon">
+          <img class="accordeon__image" src="./images/frth-meme.jpg" alt="Мем про то, как рождается дедлайн">
+        </label>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Мемасиков и котиков никогда не бывает много</p>
+    </footer>
+  </div>
+</body>

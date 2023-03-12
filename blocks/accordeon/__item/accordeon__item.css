@@ -1,0 +1,38 @@
+.accordeon__item {
+  appearance: none;
+  width: 2.5em;
+  height: 2.5em;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  background-image: url(../../../images/add-btn.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: inherit;
+  opacity: 0.2;
+}
+  .accordeon__item:checked {
+    rotate: 45deg;
+  }
+
+@media (hover: hover) {
+  .accordeon__content:hover > .accordeon__item {
+    rotate: 45deg;
+    transition: rotate 1s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 821px) {
+  .accordeon__item {
+    width: 2em;
+    height: 2em;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .accordeon__item {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}
+

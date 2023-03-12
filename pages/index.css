@@ -9,3 +9,10 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
+
+@import url(../blocks/accordeon/accordeon.css);
+@import url(../blocks/accordeon/__content/accordeon__content.css);
+@import url(../blocks/accordeon/__icon/accordeon__icon.css);
+@import url(../blocks/accordeon/__image/accordeon__image.css);
+@import url(../blocks/accordeon/__item/accordeon__item.css);
+@import url(../blocks/accordeon/__text/accordeon__text.css);

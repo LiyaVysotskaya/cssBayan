@@ -16,3 +16,6 @@
 @import url(../blocks/accordeon/__image/accordeon__image.css);
 @import url(../blocks/accordeon/__item/accordeon__item.css);
 @import url(../blocks/accordeon/__text/accordeon__text.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);

@@ -1,5 +1,17 @@
 .accordeon__image {
   max-width: 600px;
+  display: none;
   margin: 0 auto;
   object-fit: contain;
+}
+  .accordeon__item:checked~.accordeon__image {
+    display: block;
+    transition: .4s ease-in-out;
+  }
+
+@media (hover: hover) {
+  .accordeon__content:hover > .accordeon__image {
+    display: block;
+    transition: .4s ease-in-out;
+  }
 }

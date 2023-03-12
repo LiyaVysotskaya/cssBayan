@@ -1,5 +1,6 @@
 .accordeon__icon {
   width: fit-content;
+  height: fit-content;
   padding: 0;
   margin: 0;
   font-size: 3rem;
@@ -7,9 +8,13 @@
   font-weight: 900;
   font-style: normal;
   color: black;
-  justify-self: flex-end;
+  opacity: 0;
   transition: rotate .4s;
 }
-  .accordeon__icon: {
-    rotate: 45deg;
+
+@media (hover: hover) {
+  .accordeon__icon:hover {
+    opacity: 1;
+    transition: rotate(45deg);
   }
+}

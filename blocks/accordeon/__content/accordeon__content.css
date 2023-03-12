@@ -1,12 +1,13 @@
 .accordeon__content {
   width: 100%;
-  margin: 20px auto;
-  padding: 10px 30px;
+  margin: 0 auto;
+  padding: 1rem 1rem;
   height: auto;
   display: flex;
+  flex-direction: column;
   box-sizing: border-box;
+  align-items: center;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.2);
-  color: rgba(0, 0, 0, 0);
-  transition: color 0.5s, padding 0.5s;
+  border-top: 1px solid rgba(84, 84, 84, .7);
+  cursor: pointer;
 }

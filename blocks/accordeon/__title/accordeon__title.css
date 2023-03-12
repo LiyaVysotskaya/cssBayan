@@ -13,9 +13,33 @@
   overflow: hidden;
 }
 
-@media (hover: hover) {
+@media screen and (max-width: 821px) {
+  .accordeon__title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 584px) {
+  .accordeon__title {
+    font-size: 1.5rem;
+    display: inline-block;
+    white-space: nowrap;
+    animation: runline 5s linear infinite 1s both;
+  }
+
   .accordeon__content:hover > .accordeon__title {
-    margin-left: 5em;
+    animation: none;
+    margin-left: 1em;
     transition: margin-left 1s;
+  }
+
+  .accordeon__content:target > .accordeon__title {
+    animation: none;
+    margin-left: 1em;
+    transition: margin-left 1s;
+  }
+
+  @keyframes runline {
+    to {transform: translateX(-100%);}
   }
 }

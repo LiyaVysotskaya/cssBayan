@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-color: inherit;
+  opacity: 0.2;
 }
   .accordeon__item:checked {
     rotate: 45deg;
